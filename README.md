@@ -10,3 +10,8 @@ pkg install git
 git clone https://github.com/Adia12528/Kali-Nethunter_Termux.git
 
 ls
+
+cd Kali-Nethunter_Termux
+
+chmod +x *
+

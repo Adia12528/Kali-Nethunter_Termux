@@ -19,7 +19,5 @@ os.system("./install-nethunter-termux")
 print("set password for VNC or start kex")
 os.system("nethunter")
 os.system("cat /etc/os-release | grep "\bNAME="")
-print("Finally start VNC server.")
-os.system("kex")
 os._exit(1)
 

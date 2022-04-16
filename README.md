@@ -30,3 +30,13 @@ You will see a prompt to set up a VNC password. Enter your Password and confirm.
 If you set a password of more than eight characters, it is truncated to 8 (by default).
 
 Next, you will see a prompt to set a "view-only password." Type 'N' for no and hit Enter.
+
+To start Kex on your Android phone, run the command below:
+
+kex start
+
+Then select user, and type ip address as localhost, and enter the password you have set.
+
+And to stop the server type:
+
+kex stop

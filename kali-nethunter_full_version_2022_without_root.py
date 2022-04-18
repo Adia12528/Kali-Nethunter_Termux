@@ -18,6 +18,6 @@ print("Downloading and installing kali linux in termux")
 os.system("./install-nethunter-termux")
 print("set password for VNC or start kex")
 os.system("nethunter")
-os.system("cat /etc/os-release | grep "\bNAME="")
+os.system("cat /etc/os-release | grep '\bNAME='")
 os._exit(1)
 
